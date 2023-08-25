@@ -82,6 +82,11 @@ p {
   padding: 120px 60px;
 }
 
+.social-media-links a {
+  font-size: 30px;
+  margin: 20px;
+}
+
 @media (max-width: 960px) {
   .hero h1 {
     font-size: 62px;
