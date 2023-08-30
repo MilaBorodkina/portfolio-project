@@ -87,6 +87,16 @@ p {
   margin: 20px;
 }
 
+.about h2 {
+  font-size: 45px;
+}
+
+.about img {
+  max-width: 90%;
+  border-radius: 6px;
+  vertical-align: middle;
+}
+
 @media (max-width: 960px) {
   .hero h1 {
     font-size: 62px;
@@ -94,9 +104,11 @@ p {
   .hero {
     padding: 150px 20px;
   }
-
   .project-description {
     padding: 0;
+    text-align: center;
+  }
+  .about {
     text-align: center;
   }
 }
