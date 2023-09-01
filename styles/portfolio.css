@@ -25,26 +25,27 @@ p {
 .hero {
   text-align: center;
   padding: 360px 20px;
-  background-image: url(/img/cover.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/img/cover.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .hero h1 {
-  color: black;
+  color: white;
   font-size: 100px;
   letter-spacing: 3px;
 }
 
 .hero h2 {
-  color: black;
+  color: white;
   font-size: 28px;
   font-weight: 400;
   margin: 12px;
 }
 
 .hero p {
-  color: black;
+  color: white;
   font-size: 25px;
 }
 
@@ -76,6 +77,32 @@ p {
   color: black;
   background: rgb(149, 125, 173, 0.25);
   border: solid 1px var(--primary-color);
+}
+
+.navbar {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-brand {
+  font-size: 18px;
+}
+
+.nav-item {
+  font-size: 18px;
+  padding-left: 30px;
+}
+
+.homepage-about {
+  justify-content: center;
+  padding-top: 80px;
+  padding-left: 60px;
+}
+.name-color {
+  color: var(--secondary-color);
 }
 
 .project-description {
