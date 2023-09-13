@@ -16,6 +16,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 35px;
+}
+
 p {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -109,11 +113,6 @@ p {
   padding: 120px 60px;
 }
 
-.social-media-links a {
-  font-size: 30px;
-  margin: 20px;
-}
-
 .about h2 {
   font-size: 45px;
 }
@@ -142,7 +141,47 @@ p {
   text-decoration: none;
 }
 
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-media-links a {
+  font-size: 30px;
+  margin: 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-media-links a:hover {
+  color: wheat;
+  background: var(--primary-color);
+}
+
 @media (max-width: 960px) {
+  h4 {
+    font-size: 18px;
+  }
+
   .hero h1 {
     font-size: 62px;
   }
