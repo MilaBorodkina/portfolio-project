@@ -141,6 +141,10 @@ p {
   text-decoration: none;
 }
 
+footer {
+  margin: 40px 300px;
+}
+
 footer .contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
