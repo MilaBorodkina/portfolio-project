@@ -29,7 +29,7 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg fixed-top p-2">
+    <nav class="navbar navbar-expand-lg fixed-top p-2 shadow">
       <div class="container-fluid">
         <a
           class="navbar-brand"
@@ -88,38 +88,87 @@
       </div>
     </nav>
 
-    <div class="projects container">
-      <h1>Projects</h1>
+    <div class="projects container mb-5">
+      <h3 class="mb-5">Projects</h3>
       <div class="row">
         <div class="col-md-6 mb-4">
           <img src="/img/clock.png" alt="" class="img-fluid mb-3 rounded" />
-          <h3 class="text-center mb-0">World clock</h3>
-          <p class="text-center text-muted">
+          <h3 class="text-center mb-2">World clock</h3>
+          <p class="text-center text-muted mb-4">
             Built with HTML, CSS, and JavaScript
           </p>
+          <div class="text-center">
+                      <a
+                class="primary-button"
+                href="https://world-clock-project-web.netlify.app/"
+                target="_blank"
+                title="World clock  project"
+                >Learn more</a
+              >
+          </div>
+
         </div>
         <div class="col-md-6">
           <img src="/img/Weather.png" alt="" class="img-fluid mb-3 rounded" />
-          <h3 class="text-center mb-0">Vanilla JS Weather App</h3>
-          <p class="text-center text-muted">
+          <h3 class="text-center mb-2">Vanilla JS Weather App</h3>
+          <p class="text-center text-muted mb-4">
             Built using HTML, advanced CSS, JavaScript, and an active API
           </p>
-        </div>
-        <div class="col-md-6 mb-4">
-          <img src="/img/yoga.png" alt="" class="img-fluid mb-3 rounded" />
-          <h3 class="text-center mb-0">Yoga Webpage</h3>
-          <p class="text-center text-muted">
-            Built with HTML, CSS, and JavaScript
-          </p>
-        </div>
-        <div class="col-md-6">
-          <img src="/img/yogurt.png" alt="" class="img-fluid mb-3 rounded" />
-          <h3 class="text-center mb-0">Yogurt Webpage</h3>
-          <p class="text-center text-muted">
-            Built with HTML, CSS, and JavaScript
-          </p>
+          <div class="text-center">
+             <a
+                class="primary-button"
+                href="https://weather-project-app.netlify.app/"
+                target="_blank"
+                title="Weather project"
+                >Learn more</a
+              >
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- FOOTER -->
+      <footer>
+        <div class="contact-box justify-content-between mb-4 d-none d-md-flex mt-4">
+        <div class="get-in-touch">
+          <h4>Get In Touch</h4>
+          <p class="mt-3 text-muted">Have a question or want to work together?</p>
+        </div>
+        <div class="footer-contact-btn m-4">
+          <a href="/contacts.html" class="primary-button" title="Contact page"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      
+      <div class="social-media-links justify-content-center d-flex">
+        <a
+          href="mailto:mila.borodkina.email@gmail.com"
+          title="Send Mila Borodkina an email"
+        >
+          <i class="fa-regular fa-envelope"></i
+        ></a>
+
+        <a
+          href="https://www.linkedin.com/in/mila-borodkina/"
+          target="_blank"
+          title="Mila Borodkina LinkedIn profile"
+        >
+          <i class="fab fa-linkedin"></i
+        ></a>
+
+        <a
+          href="https://github.com/MilaBorodkina"
+          target="_blank"
+          title="Mila Borodkina GitHub profile"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+    </div>
+
+    <div class="text-center mt-4">
+      <p>Designed & Built by Mila Borodkina</p>
+    </div>
+      </footer>
   </body>
 </html>
