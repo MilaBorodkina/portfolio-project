@@ -115,6 +115,7 @@ p {
   padding-top: 80px;
   padding-left: 60px;
 }
+
 .name-color {
   color: var(--primary-color);
 }
@@ -188,17 +189,6 @@ footer .contact-box p {
   margin: 0;
 }
 
-footer .email-link {
-  text-decoration: none;
-  color: black;
-  font-size: 22px;
-  text-align: center;
-}
-
-footer .email-link:hover {
-  color: var(--primary-color);
-}
-
 footer .social-media-links a {
   font-size: 30px;
   margin: 20px;
@@ -218,12 +208,19 @@ footer .social-media-links a:hover {
   h4 {
     font-size: 18px;
   }
-
   .hero h1 {
     font-size: 62px;
   }
   .hero {
-    padding: 150px 20px;
+    padding: 170px 20px;
+  }
+  .homepage-about {
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+  .homepage-about-me-button {
+    text-align: center;
   }
   .project-description {
     padding: 0;
@@ -231,5 +228,23 @@ footer .social-media-links a:hover {
   }
   .about {
     text-align: center;
+  }
+  .skills {
+    text-align: center;
+    margin-top: 50px;
+  }
+  footer {
+    margin: 40px 10px;
+  }
+}
+
+@media (max-width: 1385px) {
+  footer {
+    margin: 40px 10px;
+  }
+
+  footer .contact-box {
+    display: none;
+    visibility: hidden;
   }
 }
