@@ -150,6 +150,7 @@ p {
 .projects img {
   display: block;
   margin: 0 auto;
+  max-width: 85%;
 }
 
 .contacts {
