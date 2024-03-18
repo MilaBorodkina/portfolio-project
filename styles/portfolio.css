@@ -205,6 +205,17 @@ footer .social-media-links a:hover {
   background: var(--primary-color);
 }
 
+@media (max-width: 1385px) {
+  footer {
+    margin: 40px 10px;
+  }
+
+  footer .contact-box {
+    display: none;
+    visibility: hidden;
+  }
+}
+
 @media (max-width: 960px) {
   h4 {
     font-size: 18px;
@@ -239,13 +250,14 @@ footer .social-media-links a:hover {
   }
 }
 
-@media (max-width: 1385px) {
-  footer {
-    margin: 40px 10px;
+@media (max-width: 450px) {
+  .hero h1 {
+    font-size: 50px;
   }
-
-  footer .contact-box {
-    display: none;
-    visibility: hidden;
+  h2 {
+    font-size: 42px;
+  }
+  h3 {
+    font-size: 35px;
   }
 }
